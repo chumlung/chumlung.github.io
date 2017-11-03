@@ -1,0 +1,15 @@
+*{
+padding:0px;
+margin:0px;
+font-family: arial;
+}
+
+a{
+	color:black;
+	text-decoration: none;
+}
+.clearfix {
+  content: "";
+  display: table;
+}
+
