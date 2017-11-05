@@ -1,0 +1,198 @@
+.logo{
+	width:223px; 
+	float: left; 
+	margin-top: 10px;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.search{
+	width:80%;
+	float:left;
+	margin-top: 10px auto;
+	display:block;
+}
+.search-text input{
+	width: 70%;
+	height: 18px;
+	margin: 1px 8px;
+	border-style: none;
+	background-color: #caeff7;
+	font-size: 10px;
+	float:left;
+}
+.cancel{
+	display: none;
+
+}
+.eyeglass{
+	display: none;
+
+}
+.search-button{
+	height:20px;
+	width:53px; 
+	float:right;
+	margin:0px 5% 0px 0px; 
+	padding: 5px 0px 5px 2px;
+	background-image: url("../images/search-button.png");
+	background-repeat: no-repeat;
+
+}
+.search a{
+	margin: 0px 8px;
+	font-size: 10px;
+	color: white;
+}
+
+
+
+.account{
+	width: auto;
+	float:right;
+	margin-top: 15px;
+	margin-right: 5%;
+	padding-top: 2px;
+	font-style: 15px;
+}
+
+.account-options {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.account-options li{
+	background-image: url("../images/pipe.png");
+	background-position: right ;
+	background-repeat: no-repeat;
+	display: inline-block;padding:5px;
+	font-size: 11px;
+}
+.account-options li:last-child{
+	background: none;
+	padding-right: 0px;
+}
+
+
+.page-title{
+	display: block;
+	margin-top:0px;
+	font-size: 32px;
+	padding-top: 11px;
+	padding-bottom:22px;
+	line-height: 0px;
+}
+
+.tab-title{
+	display: none;
+	height: 38px;
+	width: 100%;
+}
+.title-menu{
+	display: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.title-menu li{
+	padding-top:14px;
+	padding-bottom: 14px;
+	text-align: center;
+	font-size: 12px;
+	display: inline-block;
+}
+.tab-subtitle{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.tab-subtitle-left{
+	width: auto;
+	float:left;
+	padding: 0px 5px;
+}
+.tab-subtitle-right{
+	width: auto;
+	float:left;
+	padding: 0px;
+}
+.subtitle-menu{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.subtitle-menu li{
+	padding:5px;
+	font-size: 11px;
+	display: inline;
+	background-image: url(../images/inactive-body-tab.png);
+	background-repeat: no-repeat;
+}
+.main-list{
+	width: 94.6258852%;
+	padding: 15px 0px;
+	margin: auto;
+	border-bottom-style: solid;
+	border-bottom-color: #d8d8d8;
+	border-bottom-width: 1px;
+}
+.profile-picture-1{
+	height: 70px;
+	width: 70px;
+	float:left;
+	background-image: url(../images/profile-image1.png);
+}
+.profile-picture-2{
+	height: 70px;
+	width: 70px;
+	float:left;
+	background-image: url(../images/profile-image2.png);
+}
+.entry-title{
+	width:85.62874251497006%;
+	float:left;
+	font-size:14px;
+	margin: 2px;
+}
+.entry-list{
+	width:85.62874251497006%;
+	float:left;
+	font-size: 11px;
+	margin: 2px;
+}
+.entry-list-menu{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.entry-list-menu li{
+	background-image: url("../images/pipe.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	display: inline-block;
+	padding-right:8px;
+}
+.topic-box{
+	width:85.62874251497006%;
+	float:left;
+	font-size: 11px;
+	margin:2px;
+}
+.user-name{
+	color: #50adbf;
+	font-size: 11px;
+}
+.new{
+	color: #50adbf;
+	font-size: 11px;
+}
+.subscription{
+	color: #70961d;
+}
+.right-menu{
+	list-style: none;
+	width: 100%;
+	margin:0px;
+	padding:0px;
+}
+
