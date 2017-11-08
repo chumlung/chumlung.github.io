@@ -1,22 +1,22 @@
 .logo{
-	padding-top: 28px;
+	padding-top: 10px;
 	padding-left: 9px;
-	padding-bottom: 27px;
+	padding-bottom: 10px;
 	float: left; 	
 }
 .header-top-list{
 	float:right;
-	margin-top: 25px;
+	margin-top: 0px;
 }
 .header-top-menu{
 	list-style-type: none;
 	padding: 0px;
-	height: 30px;
+	display: block;
 }
 .header-top-menu li{
 	display: inline-block;
 	border-radius: 5px;
-	padding: 5px 21px;
+	padding: 5px 5px;
 	position: relative;
 }
 .header-top-menu li a{
@@ -186,12 +186,12 @@
 
 
 .body-project-left p{
-	padding-top: 22px;
+	padding-top: 15px;
 	padding-left: 3px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	font-size:14px;
-	line-height: 22px;
+	font-size:13px;
+	line-height: 16px;
 	color: #7e8b8b;
 
 }
@@ -199,7 +199,7 @@
 	list-style: none;
 	margin: 0;
 	padding:0;
-		padding-top: 6px;
+	padding-top: 6px;
 	width: 100%;
 
 }
@@ -261,7 +261,7 @@
 	color: #e2534b;
 }
 .body-block-left{
-	width: 1045px;
+	width: 86.36363636363636%;
 	height: 40px;
 	float:left;
 	background-image: url(../images/line.png);
@@ -386,14 +386,14 @@
 }
 .footer-info{
 	float:left;
-	width: 370px; 
+	width: 96.69421487603306%;
 	display: inline-block;
 }
 .footer-company{
 	float: left;
-	width: 170px;
-	padding-top: 2px;
-	padding-left: 31px;
+	width: 45.05982905982906%;
+	padding-top: 20px;
+	padding-left: 10px;
 	list-style: none;
 	display: block;
 }
@@ -402,7 +402,7 @@
 	display: block;
 	margin: 0px;
 	padding: 0px;
-	padding-left: 24px;
+	padding-left: 5px;
 }
 
 .footer-company li:first-child{
@@ -423,8 +423,9 @@
 }
 
 .footer-from-blog{
-	float: right;
-	width: 370px;
+	margin-top: 15px;
+	float: left;
+	width: 96.69421487603306%;
 
 }
 .from-blog-list{
