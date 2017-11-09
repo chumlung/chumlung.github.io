@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
 	margin: 0px;
 	padding: 0px;
@@ -8,4 +9,16 @@
 }
 a{
 	text-decoration: none;
+=======
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.clearfix{
+	content: "";
+	display: table;
+}
+a{
+	text-decoration: none;
+>>>>>>> f25c25d3fea33f51c5ca5880e00cbd5d9b166da3
 }
