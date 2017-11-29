@@ -103,14 +103,14 @@ var animate = function(start,end){
   signValue = (end-start)/IMAGE_WIDTH;
   var offset = 0;
   var stop = setInterval(function(){
-    offset = 3;
+    offset = 5;
     start = start + signValue * offset;
     imageUlDiv.style.marginLeft = start + "px";
     if (parseInt(imageUlDiv.style.marginLeft) == end){
       clearInterval(stop);
       flag = 0;
     }
-  },1)
+  },7)
 }
 }
 setTitleandImage();
