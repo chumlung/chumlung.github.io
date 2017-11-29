@@ -6,6 +6,8 @@ var obstaclePosition = ["15.3%","38.83%","63.73%"];
 var startButton = document.createElement("button");
 var aboutGame = document.createElement("div");
 var resetButton = document.createElement("button");
+var x = 0;
+var counter = 0;
 
 MainWrapper.style.width ="470px";
 MainWrapper.style.height = "600px";
@@ -69,6 +71,7 @@ function Game(){
 	this.gameInit = function(){
 		MainWrapper.appendChild(this.gameScreen);
 		this.gameScreen.appendChild(this.car.carElement);
+    gaming();
   }
   this.shootBullet = function(){
     if (this.canShootFlag == 1){
@@ -111,7 +114,7 @@ function Game(){
         that.car.carElement.style.backgroundImage = "url('blast.png')";
          setTimeout(function(){
           MainWrapper.removeChild(game1.gameScreen);
-          gameArray.splice(game1,1);
+          gameArray.splice(game.Array.indexOf(game1),1);
           MainWrapper.appendChild(resetButton);
          },500)
          clearInterval(gaming);
@@ -209,8 +212,7 @@ document.onkeydown = function(event){
  }
 }
 
-var x = 0;
-var counter = 0;
+
 
 var gaming = setInterval(function(){
   if (gameArray.length > 0){

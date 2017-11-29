@@ -146,8 +146,6 @@
 }
 .slider-list li i{
 	padding: 2px 13px;
-
-
 }
 .slider-list li:hover {
 	background-color: #e2534b;
@@ -182,6 +180,9 @@
 
 .current-image .current{
 	background-color: #e2534b;
+}
+.current-image .notCurrent{
+	background-color: #b0b8b9;
 }
 
 
@@ -279,7 +280,7 @@
 	float:left;
 	padding-right: 30px;
 	background-color: #f3f3f3;
-	background-image:url(../images/Dot-line.png);
+	background-image:url(../images/dot-line.png);
 	background-repeat: no-repeat; 
 	background-position: right;
 	position: absolute;
@@ -313,6 +314,9 @@
 	background-repeat: no-repeat;
 	border-radius: 0px 5px 5px 0px;
 }
+.slider-left a:hover{
+	cursor: pointer;
+}
 .slider-right{
 	float:right;
 	height: 60px;
@@ -320,6 +324,9 @@
 	background-image: url(../images/slider-right.png);
 	background-repeat: no-repeat;
 	border-radius: 5px 0px 0px 5px;
+}
+.slider-right a:hover{
+	cursor: pointer;
 }
 .block-content{
 	width:270px;
