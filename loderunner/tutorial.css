@@ -1,0 +1,22 @@
+.keys{
+	margin-top: 20px;
+	margin-right: 20px;
+	float:right;
+}
+.keys h3{
+	color:white;
+}
+.zx{
+	margin-top: 20px;
+	margin-left:20px;
+	float: left;
+}
+.zx h3{
+	color: white;
+}
+.message{
+	margin: 20px auto;
+}
+.message h3{
+	color: yellow;
+}
